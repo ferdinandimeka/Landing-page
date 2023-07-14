@@ -1,0 +1,23 @@
+.image-container {
+    position: relative;
+    width: 100;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    align-items: center;
+    color: black;
+}
+
+.text-overlay h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.text-overlay p {
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: -100px;
+}

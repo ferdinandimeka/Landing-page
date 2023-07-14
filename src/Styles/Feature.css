@@ -1,0 +1,35 @@
+.icon .fa-solid {
+    font-size: 38px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    color: #fff;
+    transform: all 0.5s;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+
+.section-title h2 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.section-title {
+    margin-left: -0%;
+}
+
+.section-title h2::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+}
+

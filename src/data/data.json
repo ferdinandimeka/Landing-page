@@ -1,0 +1,106 @@
+{
+    "Features" : [
+    {
+        "icon" : "fa-solid fa-cart-shopping",
+        "title" : "Shopping Cart",
+        "text" : " The cart-shopping feature in our e-commerce app is designed to enhance your shopping experience by providing a convenient and efficient way to gather and manage your desired products before making a purchase."
+    },
+
+    {
+        "icon" : "fa-solid fa-money-bill",
+        "title" : "Secured Payment",
+        "text" : "Multiple secured payment gateways to ensure safe transactions and protect customers sensible information. SSL encryption and fraud prevention measures for enhanced security and cutomer trust."
+    },
+
+    {
+        "icon" : "fa-solid fa-star",
+        "title" : "Customer Reviews And Ratings",
+        "text" : "Customer review system to provide social proof and build trust among potential buyers. Ratings and feedback on products to help customers make informed purchase"
+    },
+
+    {
+        "icon" : "fa-solid fa-person-breastfeeding",
+        "title" : "Easy-to-use Interface",
+        "text" : "Intuitive user interface for seamless navigation and a smooth shopping experience, Simple product search and filtering options to help users find what they are looking for quickly  "
+    }
+
+    ],
+
+    "Products" : [
+
+        {
+            "name" : "Rolex",
+            "image" : "../img/watch.jpg",
+            "title" : "Timeless Elegance: Explore Our Exquisite Rolex Watch Collection"
+        },
+
+        {
+            "name" : "Men Shoe",
+            "image" : "../img/men_shoes.jpg",
+            "title" : "Step Up Your Style: Discover Our Sophisticated Men's Shoe Collection"
+        },
+
+        {
+            "name" : "Women Bag",
+            "image" : "../img/women_bag.jpg",
+            "title" : "Elevate Your Style: Discover Our Chic Women's Bag Collection"
+        },
+
+        {
+            "name" : "Sneakers",
+            "image" : "img/Sneakers.jpg",
+            "title" : "Unleash Your Style and Comfort: Explore Our Trendsetting Sneakers Collection"
+        },
+
+        {
+            "name" : "Recipe",
+            "image" : "../img/hamburger.jpg",
+            "title" : "Culinary Delights: Indulge in our Delectable Recipe Collection"
+        },
+
+        {
+            "name" : "Camera",
+            "image" : "img/camera.jpg",
+            "title" : "Capture Life's Moments: Introducing Our Cutting-Edge Camera Collection"
+        }
+    ],
+
+    "Services" : [
+
+        {
+            "name" : "Shipping",
+            "icon" : "fa-duotone fa-truck-arrow-right",
+            "title" : "Provide various shipping options to accommodate different customer needs. This can include standard shipping, express shipping for faster delivery, international shipping for global customers, and options for tracking and insurance."
+        },
+
+        {
+            "name" : "",
+            "icon" : "",
+            "title" : ""
+        },
+
+        {
+            "name" : "",
+            "icon" : "",
+            "title" : ""
+        },
+
+        {
+            "name" : "",
+            "icon" : "",
+            "title" : ""
+        },
+
+        {
+            "name" : "",
+            "icon" : "",
+            "title" : ""
+        },
+
+        {
+            "name" : "",
+            "icon" : "",
+            "title" : ""
+        }
+    ]
+}

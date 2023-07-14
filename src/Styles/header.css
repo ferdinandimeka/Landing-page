@@ -1,0 +1,44 @@
+a.btn.btn-custom.btn-lg {
+    text-transform: uppercase;
+    background-color: #5ca9fb;
+    margin-top: 20%;
+    margin-left: 26%;
+    letter-spacing: 1px;
+    padding: 14px 34px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    transition: all 0.5s linear;
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    border-radius: 25px;
+    color: #fff;
+}
+
+a.btn.btn-custom:hover,
+a.btn.btn-custom:focus,
+a.btn.btn-custom:focus,
+a.btn.btn-custom:active,
+a.btn.btn-custom:active {
+    color: #fff;
+    background-image: none;
+    background-color: #6372ff;
+}
+
+.btn:active,
+.btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
