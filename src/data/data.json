@@ -69,38 +69,38 @@
 
         {
             "name" : "Shipping",
-            "icon" : "fa-duotone fa-truck-arrow-right",
+            "icon" : "fa-solid fa-truck-arrow-right",
             "title" : "Provide various shipping options to accommodate different customer needs. This can include standard shipping, express shipping for faster delivery, international shipping for global customers, and options for tracking and insurance."
         },
 
         {
-            "name" : "",
-            "icon" : "",
-            "title" : ""
+            "name" : "Paypal",
+            "icon" : "fa-brands fa-paypal",
+            "title" : "PayPal is a widely recognized online payment platform that enables individuals and businesses to make and receive payments securely and conveniently."
         },
 
         {
-            "name" : "",
-            "icon" : "",
-            "title" : ""
+            "name" : "Catalogue",
+            "icon" : "fa-solid fa-layer-group",
+            "title" : "This service involves managing and organizing your product inventory. It includes functionalities such as adding new products, updating product information (e.g., descriptions, images, prices), categorizing products into relevant categories, and managing product variations (e.g., sizes, colors)."
         },
 
         {
-            "name" : "",
-            "icon" : "",
-            "title" : ""
+            "name" : "Wishlist",
+            "icon" : "fa-solid fa-file-word",
+            "title" : "Enable users to create and manage wishlists, allowing them to save products for future reference or purchase. This feature helps users keep track of items of interest and improves the overall shopping experience."
         },
 
         {
-            "name" : "",
-            "icon" : "",
-            "title" : ""
+            "name" : "Users Authentication",
+            "icon" : "fa-solid fa-users",
+            "title" : "Enable users to create accounts, log in securely, and manage their personal information. Implement features such as password recovery, email verification, and account settings to enhance user security and privacy."
         },
 
         {
-            "name" : "",
-            "icon" : "",
-            "title" : ""
+            "name" : "Order Management",
+            "icon" : "fa-solid fa-briefcase",
+            "title" : " Implement an order management system to handle the lifecycle of orders. This includes features like order tracking, order history, managing order statuses (e.g., processing, shipped, delivered), and generating invoices."
         }
     ]
 }

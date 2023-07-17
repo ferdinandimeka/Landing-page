@@ -1,0 +1,45 @@
+#services {
+    background: linear-gradient(to left, #3144f7 0%, #5ca9fb 100%);
+    color: #fff;
+}
+
+#services h2 {
+    color: #fff;
+}
+
+#services .service-description {
+    margin: 10px 10px 20px;
+}
+
+#services .section-title h2::after {
+    position: absolute;
+    content: "";
+    background: rgba(255, 255, 255, 0.3);
+    width: 60px;
+    left: 50%;
+    height: 4px;
+    bottom: 0;
+    margin-left: -30px;
+}
+
+#services .fa-solid, 
+#services .fa-brands {
+    font-size: 42px;
+    padding: 40px 0;
+    height: 120px;
+    width: 120px;
+    background: linear-gradient(to left, #6372ff 0%, #5ca9fb 100%);
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    color: #fff;
+}
+
+#services h3 {
+    font-weight: 500;
+    color: aliceblue;
+    padding: 5px 0;
+}
+
+#services p {
+    color: rgba(255, 255, 255, 0.75);
+}

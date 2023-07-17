@@ -5,6 +5,8 @@ import Header from './components/Header';
 import { Navigation } from './components/Navigation';
 import Json from './data/data.json'
 import Products from './components/Products';
+import Services from './components/Services';
+import About from './components/About';
 
 const App = () => {
 
@@ -20,6 +22,8 @@ const App = () => {
       <Header />
       <Features data={pageData.Features} />
       <Products data={pageData.Products} />
+      <Services data={pageData.Services} />
+      <About data={pageData.About} />
     </div>
   );
 }
