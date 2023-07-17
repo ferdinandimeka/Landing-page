@@ -102,5 +102,22 @@
             "icon" : "fa-solid fa-briefcase",
             "title" : " Implement an order management system to handle the lifecycle of orders. This includes features like order tracking, order history, managing order statuses (e.g., processing, shipped, delivered), and generating invoices."
         }
-    ]
+    ],
+
+    "About" : {
+        "Paragraph" : "Welcome to LunaBay, where shopping meets convenience and style. We are committed to providing you with an exceptional online shopping experience that combines high-quality products, seamless functionality, and personalized service. Our app is designed to make your shopping journey effortless, enjoyable, and tailored to your unique preferences.",
+        "Reason1" : [
+            "At the heart of our eCommerce app is our dedication to customer satisfaction.",
+            "We are thrilled to have you as part of our growing community of shoppers",
+            "Our focus is on delivering products that are not only stylish and trendy but also durable and of the utmost quality.",
+            "Our App is designed to create a seamless and user-friendly interface"
+        ],
+
+        "Reason2" : [
+            "We strive to offer a comprehensive and intuitive platform that saves you time and enhances your overall satisfaction.",
+            "Discover an extensive collection of products",
+            "We value your feedback and continuously work to improve our services",
+            "We aim to exceed your expectations by providing excellent customer service"
+        ]
+    }
 }

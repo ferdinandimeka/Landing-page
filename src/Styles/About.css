@@ -1,0 +1,53 @@
+#about {
+    padding: 20px 0;
+}
+
+#about h3 {
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+
+#about h2 {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#about h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    left: 0;
+    bottom: 0;
+}
+
+#about .about-text li {
+    list-style: none;
+    padding: 0;
+    margin-left: 6px;
+    margin-bottom: 5px;
+}
+
+#about .about-text li:before {
+    content: "\f061";
+    font-family: "FontAwesome";
+    font-weight: 300;
+    padding-right: 10px;
+    font-size: 10px;
+    color: #5ca9fb;
+    margin-left: -20px;
+}
+
+#about img {
+    border-radius: 0;
+    margin-top: 15px;
+    height: 500px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+    color: aliceblue;
+}
+
+#about p {
+    margin-bottom: 15px;
+}
