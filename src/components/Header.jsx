@@ -16,7 +16,7 @@ const Header = () => {
                     Shop now and enjoy exclusive discounts!
                 </p>
                 <a
-                    href='localhost:3001'
+                    href='http://192.168.43.68:3001'
                     className='btn btn-custom btn-lg page-scroll' 
                 >
                     Shop Now!

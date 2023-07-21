@@ -1,4 +1,8 @@
-.icon .fa-solid {
+#feat {
+    padding: 100px 0;
+}
+
+#feat .icon .fa-solid {
     font-size: 38px;
     margin-bottom: 20px;
     width: 100px;
@@ -11,18 +15,18 @@
     background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 }
 
-.section-title h2 {
+#feat .section-title h2 {
     position: relative;
     margin-top: 10px;
     margin-bottom: 15px;
     padding-bottom: 15px;
 }
 
-.section-title {
+#feat .section-title {
     margin-left: -0%;
 }
 
-.section-title h2::after {
+#feat .section-title h2::after {
     position: absolute;
     content: "";
     height: 4px;

@@ -119,5 +119,14 @@
             "We value your feedback and continuously work to improve our services",
             "We aim to exceed your expectations by providing excellent customer service"
         ]
+    },
+
+    "Contact" : {
+        "address" : "101 Industrial rd, Lagos Nigeria, P.O Box F124",
+        "phone" : "+234 901 159 1262, +254 722 208790",
+        "email" : "LunaBay@company.com",
+        "facebook" : "fb.com",
+        "twitter" : "twitter.com",
+        "youtube" : "youtube.com"
     }
 }
