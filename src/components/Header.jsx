@@ -6,7 +6,7 @@ import '../Styles/header.css'
 
 const Header = () => {
     return (
-        <Col className='image-container'>
+        <Col className='image-container '>
             <Image src={img} alt='' width='100%' fluid />
 
             <Col className='text-overlay'>
@@ -16,7 +16,7 @@ const Header = () => {
                     Shop now and enjoy exclusive discounts!
                 </p>
                 <a
-                    href='http://192.168.43.68:3001'
+                    href='https://lunabay.onrender.com'
                     className='btn btn-custom btn-lg page-scroll' 
                 >
                     Shop Now!

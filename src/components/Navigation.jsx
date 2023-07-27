@@ -1,10 +1,9 @@
 import React from 'react'
-import { Navbar } from 'react-bootstrap'
 import '../Styles/Navigation.css'
 
 export const Navigation = () => {
   return (
-    <Navbar id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className='container'>
             <div className='navbar-header'>
                 <button
@@ -41,7 +40,7 @@ export const Navigation = () => {
 
             <div
                 className='collapse navbar-collapse'
-                id='cs-example-navbar-collapse-1'
+                id='bs-example-navbar-collapse-1'
             >
                 <ul className='nav navbar-nav navbar-right'>
                     <li>
@@ -76,6 +75,6 @@ export const Navigation = () => {
                 </ul>
             </div>
         </div>
-    </Navbar>
+    </nav>
   )
 }
