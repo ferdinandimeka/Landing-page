@@ -1,23 +1,130 @@
 .image-container {
-    position: relative;
-    width: 100;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-overlay {
     position: absolute;
-    top: 12%;
-    left: 30%;
-    align-items: center;
-    color: black;
 }
 
-.text-overlay h2 {
-    font-size: 60px;
-    font-weight: 600;
-}
+@media (max-width: 576px) {
+    /* Styles for mobile phones */
+    .image-container img {
+        width: 100%;
+        height: 500;
+    }
 
-.text-overlay p {
-    font-size: 20px;
-    margin-top: -25px;
-    margin-left: -100px;
-}
+    .text-overlay {
+        align-items: center;
+        color: rgba(212, 206, 237);
+        top: 50%;
+    }
+    
+    .text-overlay h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 15rem;
+        color: rgba(212, 206, 237);
+    }
+    
+    .text-overlay p {
+        font-size: 1.6rem;
+        margin-top: -2rem;
+        margin-left: 6rem;
+        margin-right: 4rem;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Styles for tablets */
+    .image-container img {
+        width: 100%;
+        height: 900;
+    }
+
+    .text-overlay {
+        align-items: center;
+        color: rgb(255, 255, 255);
+        /* top: 50%; */
+    }
+    
+    .text-overlay h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 18rem;
+        color: rgb(255, 255, 255);
+        margin-top: 25rem;
+    }
+    
+    .text-overlay p {
+        font-size: 1.6rem;
+        margin-top: -2rem;
+        margin-left: 6rem;
+        margin-right: 4rem;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 992px) {
+    /* Styles for small laptops */
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-overlay {
+        align-items: center;
+        color: rgb(255, 255, 255);
+        top: 50%;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 993px) and (max-width: 1200px) {
+    /* Styles for desktops */
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-overlay {
+        align-items: center;
+        color: rgb(2, 0, 0);
+        top: 15%;
+    }
+
+    .text-overlay h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-left: 15rem;
+        color: rgb(144, 136, 136);
+    }
+
+  }
+
+  @media (min-width: 1201px) {
+    /* Styles for large laptops and desktops */
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-overlay {
+        position: absolute;
+        align-items: center;
+        color: black;
+        top: 15%;
+    }
+    
+    .text-overlay h2 {
+        font-size: 5rem;
+        font-weight: 600;
+        margin-left: 15rem;
+    }
+    
+    .text-overlay p {
+        font-size: 2rem;
+    }
+  }
